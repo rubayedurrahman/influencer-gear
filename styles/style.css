@@ -1,0 +1,194 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------- ------------------------------------
+first container
+---------------------------------------------------- */
+section{
+    margin-left: 120px;
+    margin-right: 100px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title{
+    color: #3A3A3A;
+    font-size: 24px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration:none ;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 34px;
+}
+.influencer{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+.heading-title h1{
+    color: #3A3A3A;
+    font-size:  52px;
+}
+.heading-title p{
+    color:#3A3A3A ;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.button{
+    background:#E02C6D; 
+    border-radius: 41px;
+    color: white;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+/*------------------------------------------------------
+ end of first container
+ --------------------------------------------------- */
+
+ /*------------------ ----------...............................
+ second container
+ ....................................................------------ */
+
+ .second-container{
+   margin-top: 100px;
+   margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 5px rgb(66,66,66);
+ }
+
+.icons{
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    justify-content: center;
+}
+/*------------------....................................
+ end of second contaier
+ -------------------.................................. */
+
+ /*------------------------------------------
+  third contaier 
+  ----------------------------------------------*/
+ 
+  .popular-collection{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-row-gap: 60px;
+      grid-column-gap:60px ;
+  }
+.popular{
+    background: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); 
+    border-radius: 5px;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+.collection-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #3A3A3A;
+
+}
+.fa-star, .fa-star-half-alt{
+    color: #FB8200; 
+    font-size: 12px; 
+}
+.rating ul li{
+    list-style: none;
+    
+}
+.rating ul{
+    display: flex;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    margin-left: -42px;
+    margin-top: -25px;
+}
+span{
+    margin-left: 10px;
+    color: #787885;
+}
+.details-1{
+    color: #787885;
+    font-size: 14px;
+    margin-bottom: -15px;
+    font-weight: bold;
+}
+.details{
+    margin-top: -20px;
+}
+.see-more{
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
+.see-more a{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+}
+/*---------------------------------------------------------------------------
+ end of third container
+ ------------------------------------------------- --------------------------*/
+
+  /*-------------------------
+   last-container
+   ----------------------  */
+.featured{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 100px;
+}
+   .article-title{
+       color:#0A0826;
+       font-size: 30px;
+ }
+ .join{
+    width: 155px;
+    height: 40px;
+    background: #E02C6D;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+ }
+ /*----------------------------------------------------
+  end of last container
+  ----------------------------------------------- */
+
+  /*---------------------------------
+   footer
+   ---------------------- */
+
+footer{
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 50px ;
+    
+}
+.copyright{
+    margin-top: -10px;
+}
+.social-icons {
+    letter-spacing: 5px;
+    font-size: 20px;
+} 
+    
